@@ -37,9 +37,7 @@ export class BooksService {
   }
 
   getBooksByAuthor(authorName: string): BookDto[] {
-    console.log('authorName', authorName);
     const filteredBooks = this.books.filter(book => book.author.name.toLowerCase() === authorName.toLowerCase());
-    console.log('filteredBooks', filteredBooks);
     return filteredBooks;
   }
 }

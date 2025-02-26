@@ -21,7 +21,6 @@ export class BooksController {
   @ApiOperation({ summary: 'Buscar libros por nombre de autor' })
   @ApiResponse({ status: HttpStatus.OK, description: 'Lista de libros del autor', type: [BookDto] })
   async getBooksByAuthor(@Query('search') authorName: string): Promise<BookDto[]> {
-    console.log('Controller: authorName', authorName); // <--- Asegúrate de que esto aparece en los logs
     return this.booksService.getBooksByAuthor(authorName);
   }
 
