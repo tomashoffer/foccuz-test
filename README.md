@@ -45,3 +45,10 @@
 ## Documentación de la API (SWAGGER)
 
 La documentación de la API está disponible en Swagger. Una vez que el servidor esté en ejecución, puedes acceder a la documentación en `http://localhost:3000/api`.
+
+##
+VIDEO EXPLICATIVO DEL PROYECTO
+LINK 1: https://www.loom.com/share/e0e3449b654b4c1b96a6be5338577d1a?sid=6fd99409-c982-40a1-8ef6-3422274361a2
+
+
+LINK 2: https://www.loom.com/share/639075ee3fdf48208d8d368a88198ba7?sid=5fae8947-3561-4514-a5c0-908e84ea5475
